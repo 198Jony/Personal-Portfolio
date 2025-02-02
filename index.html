@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -15,9 +16,59 @@
              font-family: "Lato", serif;
              }
     </style>
-
+    <style>
+        .k2d {
+           font-family: "K2D", serif;
+                 }
+    </style>
 </head>
 <body>
     
+    <!--Header section-->
+    <header class="bg-black pt-5">
+    <!--Navbar-->
+        <div class="navbar container mx-auto w-11/12 lg:w-4/5 ">
+            <div class="navbar-start flex justify-between lg:justify-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-8 w-8 text-white"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h8m-8 6h16" />
+                  </svg>
+                </div>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow bg-black">
+                  <li><a class="text-gray-400 hover:text-orange-400 font-lato text-xl font-medium">Home</a></li>
+                  <li><a class="text-gray-400 hover:text-orange-400 font-lato text-xl font-medium">Services</a></li>
+                  <li><a class="text-gray-400 hover:text-orange-400 font-lato text-xl font-medium">About me</a></li>
+                  <li><a class="text-gray-400 hover:text-orange-400 font-lato text-xl font-medium">Portfolio</a></li>
+                  <li><a class="text-gray-400 hover:text-orange-400 font-lato text-xl font-medium">Contact me</a></li>
+                </ul>
+              </div>
+              <a href="#" class="text-orange-600 font-k2d text-2xl lg:text-3xl font-bold ">LOGO</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a class="text-gray-400 hover:text-orange-400 font-lato text-xl font-medium">Home</a></li>
+                <li><a class="text-gray-400 hover:text-orange-400 font-lato text-xl font-medium">Services</a></li>
+                <li><a class="text-gray-400 hover:text-orange-400 font-lato text-xl font-medium">About me</a></li>
+                <li><a class="text-gray-400 hover:text-orange-400 font-lato text-xl font-medium">Portfolio</a></li>
+                <li><a class="text-gray-400 hover:text-orange-400 font-lato text-xl font-medium">Contact me</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end">
+              <a class="btn bg-orange-500 text-white font-lato text-sm lg:text-lg font-bold hover:bg-white hover:text-orange-500 hover:border hover:border-orange-500">Hire Me</a>
+            </div>
+          </div>
+    </header>
 </body>
 </html>
