@@ -103,9 +103,9 @@
     <!--Header section-->
     <header class="bg-black pt-5">
     <!--Navbar-->
-        <div class="navbar container mx-auto w-11/12 lg:w-4/5 ">
-            <div class="navbar-start flex justify-between lg:justify-start">
-              <div class="dropdown">
+        <div class="container mx-auto w-11/12 lg:w-4/5 ">
+            <div class="flex items-center justify-between">
+              <div class="dropdown lg:hidden">
                 <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -130,20 +130,19 @@
                   <li><a class="text-gray-400 hover:text-orange-400 font-lato text-xl font-medium">Contact me</a></li>
                 </ul>
               </div>
-              <a href="#" class="text-orange-600 font-k2d text-2xl xl:text-3xl font-bold ">LOGO</a>
+              <a href="#" class="text-orange-600 font-k2d text-2xl xl:text-3xl font-bold lg:navbar-start">LOGO</a>
+              <div class="lg:navbar-end hidden lg:block">
+                <ul class="menu menu-horizontal px-1">
+                  <li><a class="text-gray-400 hover:text-orange-400 font-lato lg:text-lg xl:text-xl font-medium">Home</a></li>
+                  <li><a class="text-gray-400 hover:text-orange-400 font-lato lg:text-lg xl:text-xl font-medium">Services</a></li>
+                  <li><a class="text-gray-400 hover:text-orange-400 font-lato lg:text-lg xl:text-xl font-medium">About me</a></li>
+                  <li><a class="text-gray-400 hover:text-orange-400 font-lato lg:text-lg xl:text-xl font-medium">Portfolio</a></li>
+                  <li><a class="text-gray-400 hover:text-orange-400 font-lato lg:text-lg xl:text-xl font-medium">Contact me</a></li>
+                </ul>
+              </div>
             </div>
-            <div class="navbar-center hidden lg:flex">
-              <ul class="menu menu-horizontal px-1">
-                <li><a class="text-gray-400 hover:text-orange-400 font-lato lg:text-lg xl:text-xl font-medium">Home</a></li>
-                <li><a class="text-gray-400 hover:text-orange-400 font-lato lg:text-lg xl:text-xl font-medium">Services</a></li>
-                <li><a class="text-gray-400 hover:text-orange-400 font-lato lg:text-lg xl:text-xl font-medium">About me</a></li>
-                <li><a class="text-gray-400 hover:text-orange-400 font-lato lg:text-lg xl:text-xl font-medium">Portfolio</a></li>
-                <li><a class="text-gray-400 hover:text-orange-400 font-lato lg:text-lg xl:text-xl font-medium">Contact me</a></li>
-              </ul>
-            </div>
-            <div class="navbar-end">
-              <a class="btn bg-orange-500 text-white font-lato text-sm lg:text-lg xl:text-xl font-bold hover:bg-white hover:text-orange-500 hover:border hover:border-orange-500">Hire Me</a>
-            </div>
+            
+            
         </div>
         
         <!--Banner-->
@@ -300,7 +299,8 @@
               </div>
              </div>
         </section>
-
+        
+        <!--Contact-->
         <section class="bg-black py-40">
           <div class="container mx-auto w-11/12 lg:w-4/5">
              <div class="text-center">
@@ -344,7 +344,8 @@
           </div>
         </section>
     </main>
-
+    
+    <!--Footer-->
     <footer>
       <section class="bg-[#080a0d] py-20">
         <div class="container mx-auto w-11/12 lg:w-4/5">
@@ -371,7 +372,7 @@
               </div>
               <div class="md:flex md:items-center md:justify-center md:gap-10 border-b border-gray-400 mt-5 pb-5">
                  <div class="flex items-center justify-center gap-5">
-                   <i class="fa-solid fa-envelope text-slate-300 bg-[#FFFFFF0A] inline-block text-white"></i>
+                   <i class="fa-solid fa-envelope text-slate-300 bg-[#FFFFFF0A] inline-block"></i>
                    <a class="text-sm md:text-xl font-bold text-gray-400" href="https://mail.google.com/mail/u/1/?pli=1#search/tanzil107935%40gmail.com" target="_blank">tanzil107935@gmail.com</a>
                  </div>
                  <div class="flex items-center justify-center gap-5 mt-2 mb:mt-0">
